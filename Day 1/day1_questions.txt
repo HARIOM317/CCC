@@ -1,0 +1,66 @@
+----------------- Day 1 Questions -----------------
+
+Problem 1 - find the sum of even position elements in a list (indexing starts from 0).
+
+ex. if list elements are 2 4 6 8 12 4 7 18 22 then you have find 2+6+12+7+22 that's why output is 49
+
+Input:
+n = 5
+5,3,6,9,2
+
+Output:
+5+6+2 = 13
+
+
+Problem 2 - WAP to swap two numbers without using third variable.
+
+Input: 
+a = 5, b = 10 
+
+Output: 
+a = 10, b = 5
+
+
+Problem 3 - WAP to print the following star pattern. you have create two integer variables row and column and take input from user in row and column variable and print rectangle for n rows and n columns.
+
+Input:
+row = 7, column = 5
+
+Output:
+*****
+*****
+*****
+*****
+*****
+*****
+*****
+
+
+Problem 4 - WAP to concatenate two array in a third array. if you have first array of size m and second array of size n then you have to create third array of size m+n and concate both array elements at once.
+
+Input:
+m = 5
+arr1 = [1,3,5,6,9]
+n = 7
+arr2 = [7,0,10,11,35,50,20]
+
+Output:
+1,3,5,6,9,7,0,10,11,35,50,20
+
+
+Problem 5 - WAP to search an element from the given sorted list in O(logn) time. If element fount in array then return it's index else return -1.
+
+ex. - if arr = [2,5,6,8,9,11,23,34,45,56,67,78,89,100] 
+
+Input:
+key = 23
+
+Output:
+6 (because element 23 present on index 6)
+
+Input: 
+key = 15
+
+Output:
+-1 (because element 15 not present in given list)
+
